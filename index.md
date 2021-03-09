@@ -1,37 +1,51 @@
-## Welcome to GitHub Pages
+# Devstilando
 
-You can use the [editor on GitHub](https://github.com/Devstilando/devstilando.com/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+We are a group of IT professionals dedicated to create and improve IT Solutions from a telegram bot, technical supoort services, or enterprise IT training, to architecture and implement a Serverless Application with HA and concurrency
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Currently we are in Mexico City 🇲🇽
 
-### Markdown
+## Contact Us
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+- [Telegram Bot](https://t.me/Devstilandbot)
+- [Send Us a mail](mailto://contact@devstilando.com)
 
-```markdown
-Syntax highlighted code block
+## Follow Us
 
-# Header 1
-## Header 2
-### Header 3
+![Twitter Follow](https://img.shields.io/twitter/follow/devstilando?label=DevStilando&style=social)
 
-- Bulleted
-- List
+## Happy Clients
 
-1. Numbered
-2. List
+- [Sellfone](https://sellfone.mx/)
+- [BBVA](https://bbva.mx)
 
-**Bold** and _Italic_ and `Code` text
+## Join Us
 
-[Link](url) and ![Image](src)
+Do you want to work with us? Send us a request (literally) 
+
+```HTTP
+POST /api/iwanttowork HTTP/1.1
+Host: https://devstilando.com
+Content-Type: application/json
+
+{
+  "name": "your_name",
+  "email": "your_email",
+  "phone": 0123456789,
+  "position": "position desired",
+  "github": "github username",
+  "linkedin": "linkedin username"
+}
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+You recive a token to upload your CV
 
-### Jekyll Themes
+```HTTP
+POST /api/iwanttowork/cv HTTP/1.1
+Host: https://devstilando.com
+Candidate-Token: Token recibed
+Content-Type: application/pdf"
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Devstilando/devstilando.com/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+<PDF data>
+```
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Made with ♥ and Markdown
