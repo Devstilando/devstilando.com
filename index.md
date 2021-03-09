@@ -25,8 +25,8 @@ Currently we are in Mexico City 🇲🇽
 Do you want to work with us? Send us a request (literally) 
 
 ```HTTP
-POST /api/iwanttowork HTTP/1.1
-Host: https://devstilando.com
+POST /iwanttowork HTTP/1.1
+Host: https://api.devstilando.com
 Content-Type: application/json
 
 {
@@ -42,8 +42,8 @@ Content-Type: application/json
 You recive a token to upload your CV
 
 ```HTTP
-POST /api/iwanttowork/cv HTTP/1.1
-Host: https://devstilando.com
+POST /iwanttowork/cv HTTP/1.1
+Host: https://api.devstilando.com
 Candidate-Token: Token recibed
 Content-Type: application/pdf"
 
