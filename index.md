@@ -2,6 +2,8 @@
 
 We are a group of IT professionals dedicated to create and improve IT Solutions from a telegram bot, technical supoort services, or enterprise IT training, to architecture and implement a Serverless Application with HA and concurrency
 
+[#InTheOpenSourceWeTrusted](https://twitter.com/search?q=%23intheopensourcewetrusted)
+
 Currently we are in Mexico City 🇲🇽
 
 ## Contact Us
